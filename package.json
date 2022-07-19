@@ -17,6 +17,9 @@
     "url": "https://github.com/Serafimas86/Exercicio-automacao-ui/issues"
   },
   "homepage": "https://github.com/Serafimas86/Exercicio-automacao-ui#readme",
+  "devdependencies": {
+    "cypress": "^9.7.0"
+  },
   "dependencies": {
     "cypress": "^9.7.0",
     "faker": "^5.5.3"
