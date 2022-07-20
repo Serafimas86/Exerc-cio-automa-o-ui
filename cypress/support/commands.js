@@ -24,7 +24,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-const cypress = require("cypress")
 
 Cypress.Commands.add('login', (usuario, senha) => {
    cy.get('#username').type(usuario)
@@ -43,6 +42,15 @@ Cypress.Commands.add('PreCadastro', (email, senha, nome, sobrenome) => {
    cy.get('#account_last_name').type(sobrenome)
    cy.get('.woocommerce-Button').click()
 
+})
+
+Cypress.Commands.add('addProdutos', (produto, tamanho, cor, quantidade) => {
+   cy.get('[class="product-block grid"]')
+      .contains(produto).click()
+   cy.get('.button-variable-item-'+ tamanho).click()
+   cy.get('.button-variable-item-'+ cor).click()
+   cy.get('.input-text').clear().type(quantidade)
+   cy.get('.single_add_to_cart_button').click()
 })
 
 
