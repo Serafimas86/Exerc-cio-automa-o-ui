@@ -1,0 +1,55 @@
+[
+    {
+        "nome": "Braiam",
+        "sobrenome": "Teixeira",
+        "empresa": "Carrefur",
+        "endereco": "Km 54",
+        "numero": "1007",
+        "pais": "Brasil",
+        "cidade": "Florianopolis",
+        "estado": "Santa Catarina",
+        "cep": "88980000",
+        "telefone": "48996001904",
+        "email": "relevo@gmail.com"
+    },
+
+    {
+        "nome": "Gabriel",
+        "sobrenome": "Ramos",
+        "empresa": "Sicoob",
+        "endereco": "Av Brasil",
+        "numero": "18",
+        "pais": "Brasil",
+        "cidade": "Cachoeirinha",
+        "estado": "Rio Grande do Sul",
+        "cep": "88970000",
+        "telefone": "48998041904",
+        "email": "alto@gmail.com"
+    },
+
+    {
+        "nome": "Alycia",
+        "sobrenome": "Bittencourt",
+        "empresa": "google",
+        "endereco": "João Quartieiro",
+        "numero": "277",
+        "pais": "Brasil",
+        "cidade": "Sombrio",
+        "estado": "Santa Catarina",
+        "cep": "88960000",
+        "telefone": "48998001904",
+        "email": "altorelevo@gmail.com"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+]
